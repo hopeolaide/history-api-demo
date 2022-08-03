@@ -13,8 +13,10 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to the Local History API project!
         </h1>
+        <h2>ADA C17 Capstone Project </h2>
+        <h3>Hope Wilson </h3>
 
         <p className={styles.description}>
           Get started by editing{' '}
