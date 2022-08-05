@@ -10,16 +10,23 @@
     "npm": "please-use-yarn"
   },
   "scripts": {
-    "dev": "next dev , cross-env NODE_OPTIONS='--inspect' next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install"
   },
   "dependencies": {
+    "@deck.gl/core": "^8.8.6",
+    "@deck.gl/layers": "^8.8.6",
+    "@deck.gl/react": "^8.8.6",
+    "deck.gl": "^8.8.6",
+    "mapbox-gl": "^2.9.2",
     "next": "12.2.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-map-gl": "^7.0.18",
+    "supercluster": "^7.1.5"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
