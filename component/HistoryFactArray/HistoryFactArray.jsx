@@ -1,3 +1,5 @@
-// export default function HistoryFactArray ({  }) {
-//   const HistoryFactCard = 
-// }
+import HistoryFactCard from "../HistoryFactCard/HistoryFactCard"
+
+export default function HistoryFactArray ({ HistoryFactCard }) {
+  const HistoryFactCard = 
+}

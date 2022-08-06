@@ -1,5 +1,5 @@
-import HistoryFactCard from "../component/HistoryFactCard/HistoryFactCard"
-import TestMap from "../component/TestMap"
+// import HistoryFactCard from "../component/HistoryFactCard/HistoryFactCard"
+// import TestMap from "../component/TestMap"
 
 
 
@@ -15,8 +15,8 @@ export default function About () {
         <h2>
           Here is an example of a historical fact card:
         </h2>
-        <HistoryFactCard />
-        <TestMap />
+        {/* <HistoryFactCard /> */}
+        {/* <TestMap /> */}
     </div>
     
   )

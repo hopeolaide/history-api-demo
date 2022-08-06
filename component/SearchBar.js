@@ -8,7 +8,7 @@ export default function SearchBar () {
               id=""
               type="text"
               />
-            <button type="submit">SearchBar!</button>
+            <button type="submit">Search!</button>
           </form>
 } 
 

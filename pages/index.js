@@ -41,8 +41,8 @@ export default function Home() {
         {/* <h2>This is the home page</h2>  */}
         <SearchBar/>
 
-        <h2>This is an ADA C17 Capstone Project </h2>
-        <h3>Hope Wilson </h3>
+        <h2>ADA C17 Capstone Project </h2>
+        {/* <h3>Hope Wilson </h3> */}
 
         <p className={styles.description}>
           Visit the historical fact map {' '}
