@@ -59,7 +59,7 @@ function renderTooltip(info) {
 }
 
 /* eslint-disable react/no-deprecated */
-export default function App({
+export default function TestMap({
   data = DATA_URL,
   iconMapping = 'data/location-icon-mapping.json',
   iconAtlas = 'data/location-icon-atlas.png',
@@ -118,5 +118,5 @@ export default function App({
 }
 
 export function renderToDOM(container) {
-  render(container);
+  render(<TestMap />, container);
 }
