@@ -1,6 +1,6 @@
 import styles from './HistoryFactCard.module.css'
 import ViewSource from '../ImageComponent/ViewSource'
-import Image from 'next/image'
+// import Image from 'next/image'
 
 export default function HistoryFactCard () {
   return <div className={styles.card}>
@@ -20,7 +20,7 @@ export default function HistoryFactCard () {
 
       
       <ViewSource />
-      <Image />
+        {/* <Image /> */}
     </p>
   </div>
 }
