@@ -1,9 +1,6 @@
 // import HistoryFactCard from "../component/HistoryFactCard/HistoryFactCard"
-// import TestMap from "../component/TestMap"
 
-
-
-
+import Deck from "../component/Deck"
 
 export default function About () {
   return (
@@ -16,7 +13,12 @@ export default function About () {
           Here is an example of a historical fact card:
         </h2>
         {/* <HistoryFactCard /> */}
+        {/* <TestDeck /> */}
         {/* <TestMap /> */}
+        <div >
+         <Deck />
+        </div>
+
     </div>
     
   )

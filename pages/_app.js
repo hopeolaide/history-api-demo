@@ -1,9 +1,17 @@
 import React from 'react'
 import '../styles/globals.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { useEffect } from 'react'
 
-function LocalHistoryAPI({ Component, pageProps }) {
+function App({ Component, pageProps }) {
+  useEffect(() => {
+    import("bootstrap/dist/js/bootstrap");
+  }, []);
+  
   return <Component {...pageProps} />
+  
+  
   
 }
 
-export default LocalHistoryAPI
+export default App

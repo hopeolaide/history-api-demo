@@ -3,9 +3,14 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import SearchBar from '../component/SearchBar'
+// import TestDeck from '../component/TestDeck'
+// import Deck from '../component/Deck'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
-export default function Home() {
+export default function Home({results}) {
+
+// export default function Home({results}) {
   return (
     <div className={styles.container}>
       <Head>
@@ -29,7 +34,7 @@ export default function Home() {
 
             </div>
             <div>
-                <Link href='/support'>
+                <Link href='/api'>
                 <a>API</a> 
                 </Link> 
             </div>
@@ -41,14 +46,14 @@ export default function Home() {
         {/* <h2>This is the home page</h2>  */}
         <SearchBar/>
 
+        {/* <TestDeck /> */}
+
         <h2>ADA C17 Capstone Project </h2>
         {/* <h3>Hope Wilson </h3> */}
 
-        <p className={styles.description}>
-          Visit the historical fact map {' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
+        <div >
+         {/* <Deck /> */}
+        </div>
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
@@ -60,18 +65,18 @@ export default function Home() {
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 
-
+{/* 
           <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
            
-          </a>
+          </a> */}
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
+        {/* <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
@@ -80,8 +85,23 @@ export default function Home() {
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
-        </a>
+        </a> */}
       </footer>
     </div>
   )
 }
+
+
+// export async function getServerSideProps(){
+//   console.log('Hello,Hello, Hello')
+
+//   const res = await fetch('https://api.si.edu/openaccess/api/v1.0/search' + process.env.APIKEY)
+//   const data = await res.json()
+//   console.log(data)
+
+//   return {
+//     props: {
+//       results: data
+//     }
+//   }
+// }
