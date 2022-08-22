@@ -25,6 +25,19 @@ button {
   }
   body {
     color: white;
-    background: rgb(121, 116, 158);
+    /* background: rgb(121, 116, 158); */
+    background-image: 
+    url("../public/andre-taissin-LBPU8K7loz8-unsplash.jpeg");
+    /* url("../public/david-gabric-_wMNkHdjEts-unsplash.jpeg"); */
+
+
+  /* url(
+"https://media.geeksforgeeks.org/wp-content/uploads/rk.png"); */
+  background-size: "cover";
+  height: 100vh;
+  
+  margin-top: -50px;
+  font-size:50px;
+  background-repeat:no-repeat; 
   }
 }

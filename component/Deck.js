@@ -4,7 +4,8 @@ import {StaticMap} from 'react-map-gl';
 import DeckGL from '@deck.gl/react';
 import {MapView} from '@deck.gl/core';
 import {IconLayer} from '@deck.gl/layers';
-import Image from 'next/image';
+
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 import IconClusterLayer from './icon-cluster-layer';
 
@@ -28,7 +29,6 @@ const MAP_STYLE = 'https://basemaps.cartocdn.com/gl/dark-matter-nolabels-gl-styl
 
 function renderTooltip(info) {
   const {object, x, y} = info;
-
 
   // {"coordinates":[40.070900,-74.855087],"name":"Tea Spoon","objectID":"8435","primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/97954.jpg", "objectDate": "ca. 1790"}
 
