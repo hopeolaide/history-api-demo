@@ -2,8 +2,16 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import SearchBar from '../component/SearchBar'
+<<<<<<< HEAD
 import Image from 'next/image'
 
+=======
+// import TestDeck from '../component/TestDeck'
+// import Deck from '../component/Deck'
+
+
+
+>>>>>>> 97f55fe (latest updates.)
 export default function Home({results}) {
 
 // export default function Home({results}) {
@@ -50,7 +58,11 @@ export default function Home({results}) {
         <div >
          {/* <Deck /> */}
         </div>
+<<<<<<< HEAD
         {/* <div className={styles.grid}>
+=======
+        <div className={styles.grid}>
+>>>>>>> 97f55fe (latest updates.)
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p>
@@ -59,7 +71,11 @@ export default function Home({results}) {
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Learn &rarr;</h2>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
+<<<<<<< HEAD
           </a> */}
+=======
+          </a>
+>>>>>>> 97f55fe (latest updates.)
 
 {/* 
           <a
@@ -68,7 +84,11 @@ export default function Home({results}) {
           >
            
           </a> */}
+<<<<<<< HEAD
         {/* </div> */}
+=======
+        </div>
+>>>>>>> 97f55fe (latest updates.)
       </main>
 
       <footer className={styles.footer}>
